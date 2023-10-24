@@ -1,0 +1,47 @@
+Usuario:
+- Login;
+- Senha;
+- Nome;
+- Sobrenome;
+- Data nascimento;
+- Genero;
+- Foto;
+- CPF;
+- Endereço;
+- Telefone;
+- Musicas;
+- Musicas preferidas;
+
+Casa:
+- Nome;
+- CNPJ;
+- Descrição;
+- Telefone;
+- Endereço;
+- Horario de funcionamento;
+- Foto;
+- Pessoas no bar;
+- Aberto;
+- Lista de musicas em aberto;
+- Lista de musicas fechadas;
+
+Convidado:
+- Nome;
+- Telefone;
+- Data nascimento;
+
+Funções:
+- Leitura de QRCode para abrir o app;
+- Adicionar musica na lista;
+- Buscar bares abertos;
+- Exibir pessoas dentro dos bares;
+- Listar musicas anteriores;
+- Listar musicas na playlist;
+- Pesquisar musica por nome, artista, genereo, tags...;
+- Listar proximos cantores;
+- Tirar da lista musicas de contas que estão off;
+-------------------------------------------------
+Regras:
+- Só pode ser adicionada a lista uma musica por vez para cada usuario;
+- QRCode deve ser gerado apenas quando o o estabeleciment ativar;
+- Timer entre musicas;
